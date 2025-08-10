@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redeem Key - SMM Automation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-card">
+            <h1>Activate Your Account</h1>
+            
+            {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                    <div class="flash-messages">
+                        {% for message in messages %}
+                            <div class="flash-message">{{ message }}</div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            {% endwith %}
+            
+            <p class="info-text">Enter your activation key to start using SMM Automation.</p>
+            
+            <form method="POST" action="{{ url_for('redeem_key') }}">
+                <div class="form-group">
+                    <label for="key">Activation Key</label>
+                    <input type="text" id="key" name="key" class="form-control" required placeholder="e.g., ABC123XYZ...">
+                </div>
+                
+                <div class="form-buttons">
+                    <button type="submit" class="btn btn-primary btn-block">Activate</button>
+                </div>
+            </form>
+            
+            <div class="auth-links">
+                <p>Don't have a key? Contact the administrator to get one.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

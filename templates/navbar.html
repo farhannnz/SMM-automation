@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <a href="{{ url_for('dashboard') }}">SMM Automation</a>
+            </div>
+            <div class="navbar-menu">
+                <a href="{{ url_for('dashboard') }}" class="{{ 'active' if request.endpoint == 'dashboard' else '' }}">Dashboard</a>
+                <a href="{{ url_for('setup_automation') }}" class="{{ 'active' if request.endpoint == 'setup_automation' else '' }}">Setup</a>
+                <a href="{{ url_for('templates') }}" class="{{ 'active' if request.endpoint == 'templates' else '' }}">Templates</a>
+                <a href="{{ url_for('api_profiles') }}" class="{{ 'active' if request.endpoint == 'api_profiles' else '' }}">API Profiles</a>
+                <a href="{{ url_for('order_history') }}" class="{{ 'active' if request.endpoint == 'order_history' else '' }}">Orders</a>
+                <a href="{{ url_for('user_settings') }}" class="{{ 'active' if request.endpoint == 'user_settings' else '' }}">Settings</a>
+                {% if session.get('is_admin', False) %}
+                    <a href="{{ url_for('admin_panel') }}" class="{{ 'active' if request.endpoint == 'admin_panel' else '' }}">Admin</a>
+                {% endif %}
+                <a href="{{ url_for('logout') }}">Logout</a>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
