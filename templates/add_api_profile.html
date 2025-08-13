@@ -1012,15 +1012,28 @@
                     resultContainer.innerHTML = '<div class="connection-testing"><i class="fas fa-spinner fa-spin"></i> Testing connection...</div>';
                     
                     // Simulating an API test - in a real app, you would make an actual API call
-                    setTimeout(() => {
-                        const success = Math.random() > 0.3; // 70% chance of success for demo
-                        
-                        if (success) {
-                            resultContainer.innerHTML = '<div class="connection-success"><i class="fas fa-check-circle"></i> Connection successful! Balance: $123.45</div>';
-                        } else {
-                            resultContainer.innerHTML = '<div class="connection-error"><i class="fas fa-exclamation-circle"></i> Connection failed. Please check your credentials.</div>';
-                        }
-                    }, 1500);
+                    // Make actual API call to test connection
+fetch('/test_api_connection', {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+        api_url: apiUrl,
+        api_key: apiKey
+    })
+})
+.then(response => response.json())
+.then(data => {
+    if (data.success) {
+        resultContainer.innerHTML = `<div class="connection-success"><i class="fas fa-check-circle"></i> Connection successful! Balance: ${data.balance} ${data.currency}</div>`;
+    } else {
+        resultContainer.innerHTML = `<div class="connection-error"><i class="fas fa-exclamation-circle"></i> ${data.error}</div>`;
+    }
+})
+.catch(error => {
+    resultContainer.innerHTML = '<div class="connection-error"><i class="fas fa-exclamation-circle"></i> Network error occurred</div>';
+});
                 });
             }
             

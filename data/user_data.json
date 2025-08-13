@@ -1,7 +1,13 @@
 {
   "matrix": {
     "password": "matrix123",
-    "api_profiles": {},
+    "api_profiles": {
+      "ooi": {
+        "api_url": "https://smm-automation.onrender.com/add_api_profile",
+        "api_key": "matrix123",
+        "added_at": "2025-08-10 22:22:48"
+      }
+    },
     "orders": [
       {
         "timestamp": "2025-08-08 08:49:19",
@@ -1162,6 +1168,516 @@
         "job_id": "job_38a68bfb-4676-4eac-b601-0ae5c8387335",
         "service_id": "090",
         "link": "https://console.firebase.google.com/project/bidenclave/database/bidenclave-default-rtdb/data/~2F"
+      },
+      {
+        "timestamp": "2025-08-10 22:21:14",
+        "quantity": 379,
+        "response": {
+          "error": "HTTP Error: 403"
+        },
+        "job_id": "job_f348caf4-8590-4b86-9e0f-7108fc11dade",
+        "service_id": "111",
+        "link": "https://claude.ai/chat/ed1d5391-cd3a-4f27-9d11-285b05f016bb"
+      },
+      {
+        "timestamp": "2025-08-10 22:21:18",
+        "quantity": 362,
+        "response": {
+          "error": "HTTP Error: 403"
+        },
+        "job_id": "job_1e9dee47-300f-4afe-b4f1-a167b67f015e",
+        "service_id": "111",
+        "link": "https://claude.ai/chat/ed1d5391-cd3a-4f27-9d11-285b05f016bb"
+      },
+      {
+        "timestamp": "2025-08-10 22:21:20",
+        "quantity": 370,
+        "response": {
+          "error": "HTTP Error: 403"
+        },
+        "job_id": "job_3f070d92-bc0e-4b87-8d41-8456aea4ed15",
+        "service_id": "111",
+        "link": "https://claude.ai/chat/ed1d5391-cd3a-4f27-9d11-285b05f016bb"
+      },
+      {
+        "timestamp": "2025-08-10 22:21:22",
+        "quantity": 451,
+        "response": {
+          "error": "HTTP Error: 403"
+        },
+        "job_id": "job_cb482515-4da6-4d35-aca1-e1f7b027ad6c",
+        "service_id": "111",
+        "link": "https://claude.ai/chat/ed1d5391-cd3a-4f27-9d11-285b05f016bb"
+      },
+      {
+        "timestamp": "2025-08-10 22:21:26",
+        "quantity": 271,
+        "response": {
+          "error": "Invalid JSON response: Expecting value: line 1 column 1 (char 0)"
+        },
+        "job_id": "job_6d84d6ee-0727-4d6e-bbfa-a6ef474898b2",
+        "service_id": "243",
+        "link": "http://localhost:5000/setup_automation"
+      },
+      {
+        "timestamp": "2025-08-10 22:21:33",
+        "quantity": 237,
+        "response": {
+          "error": "Invalid JSON response: Expecting value: line 1 column 1 (char 0)"
+        },
+        "job_id": "job_fddd96a4-35e7-45f6-8fe8-c4c6d5674e6a",
+        "service_id": "243",
+        "link": "http://localhost:5000/setup_automation"
+      },
+      {
+        "timestamp": "2025-08-10 22:21:39",
+        "quantity": 278,
+        "response": {
+          "error": "Invalid JSON response: Expecting value: line 1 column 1 (char 0)"
+        },
+        "job_id": "job_c6b718a6-9a45-41d4-8547-c4b5136a384f",
+        "service_id": "243",
+        "link": "http://localhost:5000/setup_automation"
+      },
+      {
+        "timestamp": "2025-08-10 22:21:44",
+        "quantity": 225,
+        "response": {
+          "error": "HTTP Error: 403"
+        },
+        "job_id": "job_2688293f-79d2-4f1a-87c2-db3ec4f97ed1",
+        "service_id": "145",
+        "link": "https://claude.ai/chat/ed1d5391-cd3a-4f27-9d11-285b05f016bb"
+      },
+      {
+        "timestamp": "2025-08-10 22:21:46",
+        "quantity": 200,
+        "response": {
+          "error": "HTTP Error: 403"
+        },
+        "job_id": "job_d3b27cae-f1cb-4db1-8b5c-94b320fb5214",
+        "service_id": "146",
+        "link": "https://claude.ai/chat/ed1d5391-cd3a-4f27-9d11-285b05f016bb"
+      },
+      {
+        "timestamp": "2025-08-10 22:21:48",
+        "quantity": 184,
+        "response": {
+          "error": "HTTP Error: 401"
+        },
+        "job_id": "job_b815a452-a802-4af7-9757-0a4e85995ed1",
+        "service_id": "679",
+        "link": "https://console.firebase.google.com/project/bidenclave/database/bidenclave-default-rtdb/data/~2F"
+      },
+      {
+        "timestamp": "2025-08-10 22:21:51",
+        "quantity": 174,
+        "response": {
+          "error": "HTTP Error: 401"
+        },
+        "job_id": "job_891422e7-f0b3-4d59-b966-27ab37402130",
+        "service_id": "879",
+        "link": "https://console.firebase.google.com/project/bidenclave/database/bidenclave-default-rtdb/data/~2F"
+      },
+      {
+        "timestamp": "2025-08-10 22:21:53",
+        "quantity": 200,
+        "response": {
+          "error": "HTTP Error: 401"
+        },
+        "job_id": "job_604f3f81-06c1-4a3c-8fe4-3b7d4b4a4de2",
+        "service_id": "789",
+        "link": "https://console.firebase.google.com/project/bidenclave/database/bidenclave-default-rtdb/data/~2F"
+      },
+      {
+        "timestamp": "2025-08-10 22:21:56",
+        "quantity": 197,
+        "response": {
+          "error": "HTTP Error: 401"
+        },
+        "job_id": "job_38a68bfb-4676-4eac-b601-0ae5c8387335",
+        "service_id": "090",
+        "link": "https://console.firebase.google.com/project/bidenclave/database/bidenclave-default-rtdb/data/~2F"
+      },
+      {
+        "timestamp": "2025-08-10 22:21:58",
+        "quantity": 223,
+        "response": {
+          "error": "HTTP Error: 405"
+        },
+        "job_id": "job_88f5ae50-1cd3-4ea2-b19c-09b88bacfaeb",
+        "service_id": "666",
+        "link": "https://www.imagesbazaar.com/"
+      },
+      {
+        "timestamp": "2025-08-10 22:22:00",
+        "quantity": 455,
+        "response": {
+          "error": "HTTP Error: 405"
+        },
+        "job_id": "job_5437d597-8a76-44cc-8f84-3a932071d84e",
+        "service_id": "777",
+        "link": "https://www.imagesbazaar.com/"
+      },
+      {
+        "timestamp": "2025-08-10 22:22:03",
+        "quantity": 289,
+        "response": {
+          "error": "Invalid JSON response: Expecting value: line 1 column 1 (char 0)"
+        },
+        "job_id": "job_fa2537a1-b1cf-4121-9bc7-781d3042c6d0",
+        "service_id": "666",
+        "link": "https://www.imagesbazaar.com/"
+      },
+      {
+        "timestamp": "2025-08-10 22:22:08",
+        "quantity": 1173,
+        "response": {
+          "error": "Invalid JSON response: Expecting value: line 1 column 1 (char 0)"
+        },
+        "job_id": "job_ffd8a969-c3d7-49ea-94d5-85b7ef438b1e",
+        "service_id": "999",
+        "link": "https://www.imagesbazaar.com/"
+      },
+      {
+        "timestamp": "2025-08-13 12:15:27",
+        "quantity": 100,
+        "response": {
+          "error": "Connection error"
+        },
+        "job_id": "job_33016da9-6953-47fb-95d7-cf7c5ca2576d",
+        "service_id": "998",
+        "link": "https://claude.ai/chat/ed1d5391-cd3a-4f27-9d11-285b05f016bb"
+      },
+      {
+        "timestamp": "2025-08-13 12:45:03",
+        "quantity": 263,
+        "response": {
+          "error": "HTTP Error: 405"
+        },
+        "job_id": "job_88f5ae50-1cd3-4ea2-b19c-09b88bacfaeb",
+        "service_id": "666",
+        "link": "https://www.imagesbazaar.com/"
+      },
+      {
+        "timestamp": "2025-08-13 12:45:07",
+        "quantity": 536,
+        "response": {
+          "error": "HTTP Error: 405"
+        },
+        "job_id": "job_5437d597-8a76-44cc-8f84-3a932071d84e",
+        "service_id": "777",
+        "link": "https://www.imagesbazaar.com/"
+      },
+      {
+        "timestamp": "2025-08-13 12:48:57",
+        "quantity": 442,
+        "response": {
+          "error": "HTTP Error: 403"
+        },
+        "job_id": "job_f348caf4-8590-4b86-9e0f-7108fc11dade",
+        "service_id": "111",
+        "link": "https://claude.ai/chat/ed1d5391-cd3a-4f27-9d11-285b05f016bb"
+      },
+      {
+        "timestamp": "2025-08-13 12:49:04",
+        "quantity": 424,
+        "response": {
+          "error": "HTTP Error: 403"
+        },
+        "job_id": "job_1e9dee47-300f-4afe-b4f1-a167b67f015e",
+        "service_id": "111",
+        "link": "https://claude.ai/chat/ed1d5391-cd3a-4f27-9d11-285b05f016bb"
+      },
+      {
+        "timestamp": "2025-08-13 12:49:06",
+        "quantity": 413,
+        "response": {
+          "error": "HTTP Error: 403"
+        },
+        "job_id": "job_3f070d92-bc0e-4b87-8d41-8456aea4ed15",
+        "service_id": "111",
+        "link": "https://claude.ai/chat/ed1d5391-cd3a-4f27-9d11-285b05f016bb"
+      },
+      {
+        "timestamp": "2025-08-13 12:49:08",
+        "quantity": 525,
+        "response": {
+          "error": "HTTP Error: 403"
+        },
+        "job_id": "job_cb482515-4da6-4d35-aca1-e1f7b027ad6c",
+        "service_id": "111",
+        "link": "https://claude.ai/chat/ed1d5391-cd3a-4f27-9d11-285b05f016bb"
+      },
+      {
+        "timestamp": "2025-08-13 12:49:11",
+        "quantity": 307,
+        "response": {
+          "error": "Invalid JSON response: Expecting value: line 1 column 1 (char 0)"
+        },
+        "job_id": "job_6d84d6ee-0727-4d6e-bbfa-a6ef474898b2",
+        "service_id": "243",
+        "link": "http://localhost:5000/setup_automation"
+      },
+      {
+        "timestamp": "2025-08-13 12:49:17",
+        "quantity": 268,
+        "response": {
+          "error": "Invalid JSON response: Expecting value: line 1 column 1 (char 0)"
+        },
+        "job_id": "job_fddd96a4-35e7-45f6-8fe8-c4c6d5674e6a",
+        "service_id": "243",
+        "link": "http://localhost:5000/setup_automation"
+      },
+      {
+        "timestamp": "2025-08-13 12:49:24",
+        "quantity": 314,
+        "response": {
+          "error": "Invalid JSON response: Expecting value: line 1 column 1 (char 0)"
+        },
+        "job_id": "job_c6b718a6-9a45-41d4-8547-c4b5136a384f",
+        "service_id": "243",
+        "link": "http://localhost:5000/setup_automation"
+      },
+      {
+        "timestamp": "2025-08-13 12:49:30",
+        "quantity": 247,
+        "response": {
+          "error": "HTTP Error: 403"
+        },
+        "job_id": "job_2688293f-79d2-4f1a-87c2-db3ec4f97ed1",
+        "service_id": "145",
+        "link": "https://claude.ai/chat/ed1d5391-cd3a-4f27-9d11-285b05f016bb"
+      },
+      {
+        "timestamp": "2025-08-13 12:49:32",
+        "quantity": 232,
+        "response": {
+          "error": "HTTP Error: 403"
+        },
+        "job_id": "job_d3b27cae-f1cb-4db1-8b5c-94b320fb5214",
+        "service_id": "146",
+        "link": "https://claude.ai/chat/ed1d5391-cd3a-4f27-9d11-285b05f016bb"
+      },
+      {
+        "timestamp": "2025-08-13 12:49:36",
+        "quantity": 220,
+        "response": {
+          "error": "HTTP Error: 401"
+        },
+        "job_id": "job_b815a452-a802-4af7-9757-0a4e85995ed1",
+        "service_id": "679",
+        "link": "https://console.firebase.google.com/project/bidenclave/database/bidenclave-default-rtdb/data/~2F"
+      },
+      {
+        "timestamp": "2025-08-13 12:49:39",
+        "quantity": 200,
+        "response": {
+          "error": "HTTP Error: 401"
+        },
+        "job_id": "job_891422e7-f0b3-4d59-b966-27ab37402130",
+        "service_id": "879",
+        "link": "https://console.firebase.google.com/project/bidenclave/database/bidenclave-default-rtdb/data/~2F"
+      },
+      {
+        "timestamp": "2025-08-13 12:49:43",
+        "quantity": 233,
+        "response": {
+          "error": "HTTP Error: 401"
+        },
+        "job_id": "job_604f3f81-06c1-4a3c-8fe4-3b7d4b4a4de2",
+        "service_id": "789",
+        "link": "https://console.firebase.google.com/project/bidenclave/database/bidenclave-default-rtdb/data/~2F"
+      },
+      {
+        "timestamp": "2025-08-13 12:49:45",
+        "quantity": 233,
+        "response": {
+          "error": "HTTP Error: 401"
+        },
+        "job_id": "job_38a68bfb-4676-4eac-b601-0ae5c8387335",
+        "service_id": "090",
+        "link": "https://console.firebase.google.com/project/bidenclave/database/bidenclave-default-rtdb/data/~2F"
+      },
+      {
+        "timestamp": "2025-08-13 13:13:57",
+        "quantity": 100,
+        "response": {
+          "error": "Connection error"
+        },
+        "job_id": "job_9c438c4c-e9f0-4927-a9f0-29d52f3296ba",
+        "service_id": "656",
+        "link": "https://console.firebase.google.com/project/bidenclave/database/bidenclave-default-rtdb/data/~2F"
+      },
+      {
+        "timestamp": "2025-08-13 13:15:28",
+        "quantity": 114,
+        "response": {
+          "error": "Connection error"
+        },
+        "job_id": "job_33016da9-6953-47fb-95d7-cf7c5ca2576d",
+        "service_id": "998",
+        "link": "https://claude.ai/chat/ed1d5391-cd3a-4f27-9d11-285b05f016bb"
+      },
+      {
+        "timestamp": "2025-08-13 13:41:16",
+        "quantity": 294,
+        "response": {
+          "error": "HTTP Error: 405"
+        },
+        "job_id": "job_88f5ae50-1cd3-4ea2-b19c-09b88bacfaeb",
+        "service_id": "666",
+        "link": "https://www.imagesbazaar.com/"
+      },
+      {
+        "timestamp": "2025-08-13 13:41:19",
+        "quantity": 594,
+        "response": {
+          "error": "HTTP Error: 405"
+        },
+        "job_id": "job_5437d597-8a76-44cc-8f84-3a932071d84e",
+        "service_id": "777",
+        "link": "https://www.imagesbazaar.com/"
+      },
+      {
+        "timestamp": "2025-08-13 13:49:09",
+        "quantity": 507,
+        "response": {
+          "error": "HTTP Error: 403"
+        },
+        "job_id": "job_f348caf4-8590-4b86-9e0f-7108fc11dade",
+        "service_id": "111",
+        "link": "https://claude.ai/chat/ed1d5391-cd3a-4f27-9d11-285b05f016bb"
+      },
+      {
+        "timestamp": "2025-08-13 13:49:12",
+        "quantity": 504,
+        "response": {
+          "error": "HTTP Error: 403"
+        },
+        "job_id": "job_1e9dee47-300f-4afe-b4f1-a167b67f015e",
+        "service_id": "111",
+        "link": "https://claude.ai/chat/ed1d5391-cd3a-4f27-9d11-285b05f016bb"
+      },
+      {
+        "timestamp": "2025-08-13 13:49:13",
+        "quantity": 459,
+        "response": {
+          "error": "HTTP Error: 403"
+        },
+        "job_id": "job_3f070d92-bc0e-4b87-8d41-8456aea4ed15",
+        "service_id": "111",
+        "link": "https://claude.ai/chat/ed1d5391-cd3a-4f27-9d11-285b05f016bb"
+      },
+      {
+        "timestamp": "2025-08-13 13:49:14",
+        "quantity": 611,
+        "response": {
+          "error": "HTTP Error: 403"
+        },
+        "job_id": "job_cb482515-4da6-4d35-aca1-e1f7b027ad6c",
+        "service_id": "111",
+        "link": "https://claude.ai/chat/ed1d5391-cd3a-4f27-9d11-285b05f016bb"
+      },
+      {
+        "timestamp": "2025-08-13 13:49:16",
+        "quantity": 358,
+        "response": {
+          "error": "Invalid JSON response: Expecting value: line 1 column 1 (char 0)"
+        },
+        "job_id": "job_6d84d6ee-0727-4d6e-bbfa-a6ef474898b2",
+        "service_id": "243",
+        "link": "http://localhost:5000/setup_automation"
+      },
+      {
+        "timestamp": "2025-08-13 13:49:21",
+        "quantity": 301,
+        "response": {
+          "error": "Invalid JSON response: Expecting value: line 1 column 1 (char 0)"
+        },
+        "job_id": "job_fddd96a4-35e7-45f6-8fe8-c4c6d5674e6a",
+        "service_id": "243",
+        "link": "http://localhost:5000/setup_automation"
+      },
+      {
+        "timestamp": "2025-08-13 13:49:26",
+        "quantity": 355,
+        "response": {
+          "error": "Invalid JSON response: Expecting value: line 1 column 1 (char 0)"
+        },
+        "job_id": "job_c6b718a6-9a45-41d4-8547-c4b5136a384f",
+        "service_id": "243",
+        "link": "http://localhost:5000/setup_automation"
+      },
+      {
+        "timestamp": "2025-08-13 13:49:31",
+        "quantity": 277,
+        "response": {
+          "error": "HTTP Error: 403"
+        },
+        "job_id": "job_2688293f-79d2-4f1a-87c2-db3ec4f97ed1",
+        "service_id": "145",
+        "link": "https://claude.ai/chat/ed1d5391-cd3a-4f27-9d11-285b05f016bb"
+      },
+      {
+        "timestamp": "2025-08-13 13:49:32",
+        "quantity": 266,
+        "response": {
+          "error": "HTTP Error: 403"
+        },
+        "job_id": "job_d3b27cae-f1cb-4db1-8b5c-94b320fb5214",
+        "service_id": "146",
+        "link": "https://claude.ai/chat/ed1d5391-cd3a-4f27-9d11-285b05f016bb"
+      },
+      {
+        "timestamp": "2025-08-13 13:49:34",
+        "quantity": 261,
+        "response": {
+          "error": "HTTP Error: 401"
+        },
+        "job_id": "job_b815a452-a802-4af7-9757-0a4e85995ed1",
+        "service_id": "679",
+        "link": "https://console.firebase.google.com/project/bidenclave/database/bidenclave-default-rtdb/data/~2F"
+      },
+      {
+        "timestamp": "2025-08-13 13:49:36",
+        "quantity": 234,
+        "response": {
+          "error": "HTTP Error: 401"
+        },
+        "job_id": "job_891422e7-f0b3-4d59-b966-27ab37402130",
+        "service_id": "879",
+        "link": "https://console.firebase.google.com/project/bidenclave/database/bidenclave-default-rtdb/data/~2F"
+      },
+      {
+        "timestamp": "2025-08-13 13:49:37",
+        "quantity": 267,
+        "response": {
+          "error": "HTTP Error: 401"
+        },
+        "job_id": "job_604f3f81-06c1-4a3c-8fe4-3b7d4b4a4de2",
+        "service_id": "789",
+        "link": "https://console.firebase.google.com/project/bidenclave/database/bidenclave-default-rtdb/data/~2F"
+      },
+      {
+        "timestamp": "2025-08-13 13:49:39",
+        "quantity": 274,
+        "response": {
+          "error": "HTTP Error: 401"
+        },
+        "job_id": "job_38a68bfb-4676-4eac-b601-0ae5c8387335",
+        "service_id": "090",
+        "link": "https://console.firebase.google.com/project/bidenclave/database/bidenclave-default-rtdb/data/~2F"
+      },
+      {
+        "timestamp": "2025-08-13 14:15:31",
+        "quantity": 129,
+        "response": {
+          "error": "Connection error"
+        },
+        "job_id": "job_33016da9-6953-47fb-95d7-cf7c5ca2576d",
+        "service_id": "998",
+        "link": "https://claude.ai/chat/ed1d5391-cd3a-4f27-9d11-285b05f016bb"
       }
     ],
     "templates": [],

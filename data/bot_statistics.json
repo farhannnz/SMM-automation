@@ -1,9 +1,9 @@
 {
-  "total_orders": 116,
+  "total_orders": 167,
   "successful_orders": 0,
-  "failed_orders": 116,
+  "failed_orders": 183,
   "total_users": 0,
   "active_users": 0,
   "total_spent": 0,
-  "last_24h_orders": 116
+  "last_24h_orders": 167
 }

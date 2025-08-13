@@ -671,23 +671,22 @@ def add_api_profile():
         return redirect(url_for('login'))
     
     if request.method == 'POST':
-        profile_name = request.form['profile_name']
-        api_url = request.form['api_url']
-        api_key = request.form['api_key']
+        profile_name = request.form['profile_name'].strip()
+        api_url = request.form['api_url'].strip()
+        api_key = request.form['api_key'].strip()
         
-        # Test API connection before saving
-        test_response = connect_smm_panel(api_url, api_key, 'balance')
-        if 'error' in test_response:
-            flash(f'Failed to connect to API: {test_response["error"]}')
+        # Simple validation - check if fields are filled
+        if not profile_name or not api_url or not api_key:
+            flash('Please fill in all required fields')
             return render_template('add_api_profile.html', theme=theme_preference(user_id))
         
-        # Save API profile
+        # Save API profile directly without testing
         with data_lock:
             if user_id not in user_data:
                 user_data[user_id] = {
                     'api_profiles': {},
                     'orders': [],
-                    'templates': []  # Initialize templates array
+                    'templates': []
                 }
             
             if 'api_profiles' not in user_data[user_id]:
@@ -703,19 +702,12 @@ def add_api_profile():
         
         # Send Telegram notification
         if user_id in user_data and 'telegram_id' in user_data[user_id]:
-            telegram_id = user_data[user_id]['telegram_id']
             notification_message = (
                 "✅ *New API Profile Added*\n"
                 f"Name: `{profile_name}`\n"
-                f"Balance: `{test_response.get('balance', 'N/A')} {test_response.get('currency', '')}`"
+                f"Status: Ready to use"
             )
-            
-            profile_keyboard = create_telegram_inline_keyboard([
-                [{"text": "📊 View Profiles", "callback_data": "view_profiles"}],
-                [{"text": "🚀 Create Automation", "callback_data": "create_automation"}]
-            ])
-            
-            send_telegram_message_with_keyboard(telegram_id, notification_message, profile_keyboard)
+            send_telegram_notification(user_id, notification_message)
         
         flash(f'API profile "{profile_name}" added successfully!')
         return redirect(url_for('api_profiles'))
